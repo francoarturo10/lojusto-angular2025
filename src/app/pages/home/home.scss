@@ -1,0 +1,22 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.grid-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;        // FLEXBOX
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  h2 {
+    font-weight: 700;
+  }
+}
